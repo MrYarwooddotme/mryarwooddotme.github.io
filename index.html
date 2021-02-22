@@ -1,7 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-gb">
+
+<head>
+    <meta name="description" content="Some thoughts on teaching and some projects I have been working on.">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    
+    <!-- meta tags for Internet Explorer and mobile devices -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- meta tags data for good SEO -->
+    <title>Mr Yarwood</title>
+    
+
+    <!-- your stylesheet and any other styling code, e.g. google fonts -->
+    <link rel="stylesheet" href="css/layout.css">
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <nav class="page-nav">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Your Topic</a></li>
+            <li><a href="#images">Image Gallery</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <div class="header-content">
+            <h1>Mr Yarwood</h1>
+            <p>Computer Science Teacher</p>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="about-me container">
+            <div class="container-content">
+
+                <h2>About Me</h2>
+                <!-- add your 150 word maximum About Me content here -->
+                I have been a teacher for 15 years, a career that has taken me from Trafford to Warrington, Ban Chang to Bangkok and Macclesfield to Manchester before settling in sunny
+                Stretford. I've taught secondary and in HE, A-Levels and apprenticeships. My first love is Computer Science, back in the noughties it was more
+                ICT and Business Studies.
+
+                I consider myself to be very lucky to work in an amazing school. I'm intersted in all things techy and have a passion for teaching and learning. I have a degree, PGCE and MA. One day
+                I'd love to do a PhD, it is just the small matter of time and money that is stopping me.
+                 
+
+            </div>
+        </section>
+
+        <section id="work" class="work-experience container">
+            <div class="container-content">
+
+                <h2>Current Projects</h2>
+                I'm refinig my VB.net skills at the moment. I'm currently working on a Football Manager style game.
+                <p>I've been incorprating a lot of retrieval pratise in to my teaching.</p>
+                <p>Looking into threshold concepts for Computer Science and programming.</p>
+
+            </div>
+        </section>
+
+        <section id="images" class="image-gallery container">
+            <div class="container-content">
+                <h2>Image Gallery</h2>
+                <div class="image-container">
+                    <div class="an-image">
+                        <!-- add image one here with 100 word maximum caption -->
+                        <img src="https://unsplash.it/600">
+                        <!-- dummy image for illustration -->
+                        <div class="image-caption">
+                            <p>A caption for your first image.</p>
+                        </div>
+                    </div>
+                    <div class="an-image">
+                        <!-- add image two here with 100 word maximum caption -->
+                        <img src="https://unsplash.it/600">
+                        <!-- dummy image for illustration -->
+                        <div class="image-caption">
+                            <p>A caption for your second image.</p>
+                        </div>
+                    </div>
+                    <div class="an-image">
+                        <!-- add image three here with 100 word maximum caption -->
+                        <img src="https://unsplash.it/600">
+                        <!-- dummy image for illustration -->
+                        <div class="image-caption">
+                            <p>A caption for your third image.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-me container">
+            <div class="container-content">
+                <h2>Contact Me</h2>
+
+                <form action="https://formspree.io/[your email address goes here]" method="post">
+                    <p>
+                        <label for="contact-name">Your Name</label>
+                        <input id="contact-name" type="text" name="contact-name">
+                    </p>
+                    <p>
+                        <label for="contact-email">Your email address</label>
+                        <input id="contact-email" type="email" name="contact-email"> </p>
+                    <p>
+                        <label for="contact-phone">Your phone number</label>
+                        <input id="contact-phone" type="tel" name="contact-phone"> </p>
+                    <p>
+                        <label for="contact-message">Your message</label>
+                        <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="send my message"> </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="footer-content">
+            <p> <span class="footer-text">&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2020</a></span> 
+                <span
+                    class="footer-separator">&middot;</span> <span class="footer-text">This is student coursework</span> <span class="footer-separator">&middot;</span> <span class="footer-text">Tutor <a href="mailto:d.j.wilson@mmu.ac.uk">Derren Wilson</a></span> <span class="footer-separator">&middot;</span>                    <span class="footer-text">
+     <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a></span> </p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
