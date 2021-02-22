@@ -6,11 +6,8 @@
 /* Default styling styling for the body.*/
 
 body {
-   
-    
+    font-family: sans-serif;
     /* update with Google font, web safe font and generic fallback */
-    font-family: 'Montserrat', sans-serif;
-    
     font-size: 100%;
     /* the default browser font size is 16px */
     line-height: 1;
@@ -23,30 +20,18 @@ body {
 
 input,
 textarea {
-    font-family: 'Montserrat', sans-serif;
- /* update with Google font, web safe font and generic fallback */
+    font-family: sans-serif; /* update with Google font, web safe font and generic fallback */
 }
 
 /* box sizing */
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
 
 
 /* flexible content images code */
-img {
-    max-width: 100%;
-    height: auto;
-  }
+
 
 /* element styling (e.g. standard p, h1, h2, a, etc) */
 
-h1 {
-font-family: 'Space Mono', monospace;
-}
+h1,
 h2 {
     font-weight: normal;
     font-family: sans-serif;
@@ -71,8 +56,6 @@ h3 {
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
-
     margin: 0;
     padding: 0;
 }
